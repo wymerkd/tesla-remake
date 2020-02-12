@@ -15,7 +15,7 @@ function NavLinks() {
   }
   return (
       <div style={navBarStyles}>
-        <Link style={teslaLogo}  to="/">TESLA</Link>  <Link style={navMargins} to="/models">Model S</Link>  <Link style={navMargins} to="/model3">Model 3</Link>  <Link style={navMargins} to="/modelx">Model X</Link>  <Link style={navMargins} to="/cybertruck">Cybertruck </Link>  <Link style={navMargins} to="/roadster">Roadster</Link>  <Link style={navMargins} to="/energy">Energy</Link>
+        <Link style={teslaLogo} className="link" to="/">TESLA</Link>  <Link style={navMargins} className="link" to="/models">Model S</Link>  <Link style={navMargins} className="link" to="/model3">Model 3</Link>  <Link style={navMargins} className="link" to="/modelx">Model X</Link>  <Link style={navMargins} className="link" to="/cybertruck">Cybertruck </Link>  <Link style={navMargins} className="link" to="/roadster">Roadster</Link>  <Link style={navMargins} className="link" to="/energy">Energy</Link>
       </div>
     );
   }
