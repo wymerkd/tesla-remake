@@ -44,3 +44,35 @@
    color: rgba(255, 255, 255, 0.5);
    text-decoration: none;
 }
+
+.tesla {
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.teslaModel {
+  text-align: center;
+  color: white;
+  font-family: HeiT ASC Traditional Chinese,M Hei PRC W45,AXIS Font Japanese W55,FB New Gothic,Gotham Medium,system,sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+
+.carType {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.statBox {
+  position: absolute;
+  top: 92%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}

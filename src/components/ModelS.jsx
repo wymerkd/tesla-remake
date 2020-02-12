@@ -2,7 +2,6 @@ import React from 'react';
 import Header from './Header';
 import CarStat from './CarStat';
 import CarStatDetail from './CarStatDetail';
-// import modelSBackground from './../images/model-s.jpg';
 
 function ModelS(){
   var modelSBackground = {
@@ -16,34 +15,39 @@ function ModelS(){
     fontSize: '40px',
   }
 
-
   return(
     <div style={modelSBackground}>
       <Header/>
-      <div>
-        <CarStat
-          stat={'2.4s'}
-          />
-        <span style={dividePipe}>|</span>
-        <CarStat
-          stat={'238mi'}
-          />
-        <span style={dividePipe}>|</span>
-        <CarStat
-          stat={'AWD'}
-          />
+      <div className="carType">
+        <h3 className="tesla">Tesla</h3>
+        <h1 className="teslaModel">Model S</h1>
       </div>
+      <div className="statBox">
+        <div>
+          <CarStat
+            stat={'2.4s'}
+            />
+          <span style={dividePipe}>|</span>
+          <CarStat
+            stat={'238mi'}
+            />
+          <span style={dividePipe}>|</span>
+          <CarStat
+            stat={'AWD'}
+            />
+        </div>
 
-      <div>
-        <CarStatDetail
-          detail={'0-60mph'}
-          />
-        <CarStatDetail
-          detail={'Range'}
-          />
-        <CarStatDetail
-          detail={'Powertrain'}
-          />
+        <div>
+          <CarStatDetail
+            detail={'0-60mph'}
+            />
+          <CarStatDetail
+            detail={'Range'}
+            />
+          <CarStatDetail
+            detail={'Powertrain'}
+            />
+        </div>
       </div>
     </div>
   );

@@ -3,7 +3,9 @@ import PropTypes from 'prop-types';
 
 function CarStat(props){
   var inline = {
-    display: 'inline-block'
+    display: 'inline-block',
+    paddingRight: '10px',
+    paddingLeft: '10px'
   }
   return(
     <div style={inline}>
